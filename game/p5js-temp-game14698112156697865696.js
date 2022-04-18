@@ -1,11 +1,11 @@
 var bgImag;//let background
-let soilImag;//let soil
-let lifeImag;//let groundhog life
-let groundhogImag;//let groundhog
-let robotImag;//let robot
-let soldierImag;//let soldier
-let x = 0;//the soldier walk and go back use
-let lightPos = 240;//the lightpos shoot and go back
+var soilImag;//let soil
+var lifeImag;//let groundhog life
+var groundhogImag;//let groundhog
+var robotImag;//let robot
+var soldierImag;//let soldier
+var x = 0;//the soldier walk and go back use
+var lightPos = 240;//the lightpos shoot and go back
 
 function setup() {
   createCanvas(600,480,P2D);
